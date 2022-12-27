@@ -12,7 +12,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({
   extended: true
 }));
-mongoose.connect(process.env.DATABASE_URL).then().catch(err => console.log(err););
+mongoose.connect(process.env.DATABASE_URL).then().catch(err => console.log(err));
 
 
 //Schema
